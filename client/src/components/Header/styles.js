@@ -10,6 +10,7 @@ export default makeStyles((theme) => ({
   search: {
     position: 'relative',
     borderRadius: theme.borderRadius,
+    border:theme.border,
     backgroundColor: alpha(theme.palette.common.white, 0.15),
     '&:hover': { backgroundColor: alpha(theme.palette.common.white, 0.25) },
     marginRight: theme.spacing(2),
