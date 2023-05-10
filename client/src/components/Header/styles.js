@@ -6,16 +6,17 @@ export default makeStyles(() => ({
   },
   search: {
     position: 'relative',
-    borderRadius: 5,
-    backgroundColor:'white',
+    backgroundColor:'#ccc',
+    opacity:0.7,
     '&:hover': { backgroundColor: 'whitesmoke' },
     marginRight: 2,
     marginLeft: 0,
     width: '100%',
-    
+    borderRadius:20,
   },
   searchIcon: {
     padding:5,
+    marginLeft:3,
     color:'blue',
     display:'flex',
     alignItems:'center',
